@@ -4,6 +4,14 @@ public class TbGoods {
 	private Integer id;
 	private String goodsName;
 	private Double nowPrice;
+	private String desc;
+	
+	public String getDesc() {
+		return desc;
+	}
+	public void setDesc(String desc) {
+		this.desc = desc;
+	}
 	public Integer getId() {
 		return id;
 	}
