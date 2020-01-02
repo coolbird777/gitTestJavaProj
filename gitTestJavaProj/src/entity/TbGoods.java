@@ -4,6 +4,7 @@ public class TbGoods {
 	private Integer id;
 	private String goodsName;
 	private Double nowPrice;
+	//关于商品信息的描述
 	private String desc;
 	
 	public String getDesc() {
